@@ -4,7 +4,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .mainbox{
-    padding-left:200px;
+    padding-left:50px;
     font-size: 2rem;
     color:black;
 }
@@ -59,6 +59,18 @@
 }
 .btn:hover{
     scale:110%;
+}
+.bt{
+    border:1px solid greenyellow;
+    border-radius: 23px;
+    padding-top:8px;
+    width: 100%;
+    background-color:rgb(36, 7, 63);
+    color:white;
+    height: 80px; 
+}
+.bt:hover{
+scale:110%;
 }
 
 a{
