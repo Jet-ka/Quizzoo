@@ -36,13 +36,13 @@
     color: white;
     text-align: center;
     width: 700px;
-    height: 400px;
+    height: 470px;
     border:1px solid red;
     border-radius: 45px;
     cursor:pointer;
 }
 .card:hover{
-    scale:120%;
+    scale:105%;
 }
 
 h3{
@@ -52,6 +52,7 @@ h3{
 input{
     border:1px solid greenyellow;
     border-radius: 23px;
+    font-size:1rem ;
     width: 100%;
     background-color:rgb(36, 7, 63);
     color:white;

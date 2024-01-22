@@ -63,9 +63,10 @@
 .bt{
     border:1px solid greenyellow;
     border-radius: 23px;
+    font-size:1rem;
     padding-top:8px;
     width: 100%;
-    background-color:rgb(36, 7, 63);
+    background-color:blue;
     color:white;
     height: 80px; 
 }
@@ -87,5 +88,5 @@ a{
 
 }
 a:hover{
-    scale:90%;
+    opacity: 0.8;
 }
