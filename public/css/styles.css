@@ -1,0 +1,77 @@
+.main {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color:blueviolet;
+    color:white;
+
+}
+
+.upor{
+  margin-bottom:50px;
+  font-size:2rem ;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+#mark{
+  padding-left: 17px;
+  font-size: 1rem;
+  text-align:center;
+
+}
+.mainbox{
+    margin-bottom:9px;  
+}
+
+.card {
+    padding-left:35px;
+    padding-right:20px;
+    padding-top:70px;
+    background-color: black;
+    color: beige;
+    width: 400px;
+    height: 360px;
+    border:1px solid red;
+    border-radius: 25px;
+    cursor:pointer;
+}
+.card:hover{
+    scale:120%;
+}
+
+h3{
+    text-align:center;
+}
+
+input{
+    border:1px solid greenyellow;
+    border-radius: 23px;
+    width: 100%;
+    background-color:rgb(36, 7, 63);
+    color:white;
+    height: 30px;
+}
+input:hover{
+    scale:90%;
+}
+#subs{
+    border:1px solid greenyellow;
+    border-radius: 23px;
+    width: 100%;
+    margin-bottom: 8px;
+    background-color:rgb(36, 7, 63);
+    color:white;
+    height: 30px;  
+}
+
+#subs:hover{
+    scale:90%;
+}
+#fot{
+    margin-top: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

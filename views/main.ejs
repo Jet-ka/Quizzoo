@@ -1,0 +1,573 @@
+<!DOCTYPE html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+    Mainpage
+    </title>
+    <link rel="stylesheet" href="/css/new.css">
+</head>
+<body>
+ <div class="bigbox">
+   <div class="boxone">
+   <h3><%=pers.name%> All the best for your Test</h3>
+   </div>
+   <div class="mainbox">
+    <form action="/result" method="POST">
+   <div class="qone">
+    <p>Q.1: Zn + CuSO4 - ZnSO4(aq)+ Cu(s) </p>
+    <ol>
+        <li>
+        <input type="radio" name="one" value="Doubledisplacement">Doubledisplacement
+        </li>
+        <li>
+            <input type="radio" name="one" value="displacement">Displacement
+        </li>
+        <li>
+            <input type="radio" name="one" value="combustion">Combustion
+       </li>
+       <li>
+        <input type="radio" name="one" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+
+   <div class="qtwo">
+    <p>Q.2:Chemical formula of Bleaching powder?</p>
+    <ol>
+        <li>
+        <input type="radio" name="two" value="sodium">NaHCO3
+        </li>
+        <li>
+            <input type="radio" name="two" value="caocl2">CaOCl2
+        </li>
+        <li>
+            <input type="radio" name="two" value="potassium">Na2CO3
+       </li>
+       <li>
+        <input type="radio" name="two" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+
+   <div class="qthree">
+    <p>Q.3:Which soda is used in soda-acid fire extinguisher?</p>
+    <ol>
+        <li>
+        <input type="radio" name="three" value="NaHCO3">NaHCO3
+        </li>
+        <li>
+            <input type="radio" name="three" value="Ammeter">Na2CO3
+        </li>
+        <li>
+            <input type="radio" name="three" value="Galvanometer">Nacl
+       </li>
+       <li>
+        <input type="radio" name="three" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+
+   <div class="q4">
+    <p>Q.4: Which metal is liquid at room temperature?</p>
+    <ol>
+        <li>
+        <input type="radio" name="four" value="voltmeter">Lithium
+        </li>
+        <li>
+            <input type="radio" name="four" value="Ammeter">Bromine
+        </li>
+        <li>
+            <input type="radio" name="four" value="mercury">Mercury
+       </li>
+       <li>
+        <input type="radio" name="four" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+
+   <div class="q5">
+    <p>Q.5: Aqua regia has HCl:HNO3 ratio</p>
+    <ol>
+        <li>
+        <input type="radio" name="five" value="voltmeter">1:3
+        </li>
+        <li>
+            <input type="radio" name="five" value="threeistoone">3:1
+        </li>
+        <li>
+            <input type="radio" name="five" value="Galvanometer">1:8
+       </li>
+       <li>
+        <input type="radio" name="five" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+
+   <div class="q6">
+    <p>Q.6: Brass is an alloy of</p>
+    <ol>
+        <li>
+        <input type="radio" name="six" value="voltmeter">Cu and Sn
+        </li>
+        <li>
+            <input type="radio" name="six" value="copperndzinc">Cu and Zn
+        </li>
+        <li>
+            <input type="radio" name="six" value="Galvanometer">Pb and Sn
+       </li>
+       <li>
+        <input type="radio" name="six" value="n">Do not know
+   </li>
+    </ol>
+   </div>
+
+   <div class="q7">
+    <p>Q.7: What is the functional group of propanal?</p>
+    <ol>
+        <li>
+        <input type="radio" name="seven" value="aldehyde">Aldehyde
+        </li>
+        <li>
+            <input type="radio" name="seven" value="Ammeter">Ketone
+        </li>
+        <li>
+            <input type="radio" name="seven" value="Galvanometer">Alcohol
+       </li>
+       <li>
+        <input type="radio" name="seven" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+
+   <div class="q8">
+    <p>Q.8: How many Covalent bond present in Propane?</p>
+    <ol>
+        <li>
+        <input type="radio" name="eight" value="voltmeter">8 Covalent bond
+        </li>
+        <li>
+            <input type="radio" name="eight" value="Ammeter">12 Covalent bond
+        </li>
+        <li>
+            <input type="radio" name="eight" value="bond">10 Covalent bond
+       </li>
+       <li>
+        <input type="radio" name="eight" value="n">Do not know
+   </li>
+    </ol>
+   </div>
+   <div class="q9">
+    <p>Q.9: Bile juice come from</p>
+    <ol>
+        <li>
+        <input type="radio" name="nine" value="liver">Liver
+        </li>
+        <li>
+            <input type="radio" name="nine" value="Ammeter">Kidney
+        </li>
+        <li>
+            <input type="radio" name="nine" value="Galvanometer">Pancreas
+       </li>
+       <li>
+        <input type="radio" name="nine" value="n">Do not know
+   </li>
+    </ol>
+   </div>
+   <div class="q10">
+    <p>Q.10: Anaerobic respiration occure in</p>
+    <ol>
+        <li>
+        <input type="radio" name="ten" value="voltmeter">Presence of oxygen
+        </li>
+        <li>
+            <input type="radio" name="ten" value="absence">Absence of oxygen
+        </li>
+        <li>
+            <input type="radio" name="ten" value="Galvanometer">Prensence of carbondioxide
+       </li>
+       <li>
+        <input type="radio" name="ten" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q11">
+    <p>Q.11: Normal person Blood pressure?</p>
+    <ol>
+        <li>
+        <input type="radio" name="el" value="right">120mmHg and 80mmHg
+        </li>
+        <li>
+            <input type="radio" name="el" value="Ammeter">200mmHg and 60mmHg
+        </li>
+        <li>
+            <input type="radio" name="el" value="Galvanometer">120mmHg and 70mmHg
+       </li>
+       <li>
+        <input type="radio" name="el" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q12">
+    <p>Q.12: The break down of pyruvate to give CO2,H2O and energy take place</p>
+    <ol>
+        <li>
+        <input type="radio" name="tw" value="voltmeter">Chloroplast
+        </li>
+        <li>
+            <input type="radio" name="tw" value="Ammeter">Cytoplasm
+        </li>
+        <li>
+            <input type="radio" name="tw" value="mito">Mitochondria
+       </li>
+       <li>
+        <input type="radio" name="tw" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q13">
+    <p>Q.13: Which of the following is a plant hormone?</p>
+    <ol>
+        <li>
+        <input type="radio" name="thir" value="voltmeter">Insulin
+        </li>
+        <li>
+            <input type="radio" name="thir" value="cyto">Cytokinin
+        </li>
+        <li>
+            <input type="radio" name="thir" value="Galvanometer">Thyroxin
+       </li>
+       <li>
+        <input type="radio" name="thir" value="n">Do not know
+   </li>
+    </ol>
+   </div>
+   <div class="q14">
+    <p>Q.14: The gap between two neuron</p>
+    <ol>
+        <li>
+        <input type="radio" name="fort" value="voltmeter">Dendrite
+        </li>
+        <li>
+            <input type="radio" name="fort" value="syna">Synapse
+        </li>
+        <li>
+            <input type="radio" name="fort" value="Galvanometer">Axon
+       </li>
+       <li>
+        <input type="radio" name="fort" value="n">Do not know
+   </li>
+    </ol>
+   </div>
+   <div class="q15">
+    <p>Q.15: Which of the following is not a part of male reproductive parts?</p>
+    <ol>
+        <li>
+        <input type="radio" name="fif" value="ovary">Ovary
+        </li>
+        <li>
+            <input type="radio" name="fif" value="Ammeter">Vas deference
+        </li>
+        <li>
+            <input type="radio" name="fif" value="mercury">Testis
+       </li>
+       <li>
+        <input type="radio" name="fif" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q16">
+    <p>Q.16: The anther contains</p>
+    <ol>
+        <li>
+        <input type="radio" name="sixn" value="voltmeter">Ovule
+        </li>
+        <li>
+            <input type="radio" name="sixn" value="Ammeter">Sepals
+        </li>
+        <li>
+            <input type="radio" name="sixn" value="pol">Polllen-Grains
+       </li>
+       <li>
+        <input type="radio" name="sixn" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q17">
+    <p>Q.17: The Mendel's dihybrid cross's F2 generation ration</p>
+    <ol>
+        <li>
+        <input type="radio" name="svn" value="voltmeter">1.2.1
+        </li>
+        <li>
+            <input type="radio" name="svn" value="thisone">9.3.3.1
+        </li>
+        <li>
+            <input type="radio" name="svn" value="mercury">1.3
+       </li>
+       <li>
+        <input type="radio" name="svn" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+      <div class="q18">
+    <p>Q.18: Who's chromosome determine sex of child</p>
+    <ol>
+        <li>
+        <input type="radio" name="eighteen" value="voltmeter">Female
+        </li>
+        <li>
+            <input type="radio" name="eighteen" value="male">Male
+        </li>
+        <li>
+            <input type="radio" name="eighteen" value="mercury">Both
+       </li>
+       <li>
+        <input type="radio" name="eighteen" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+      <div class="q19">
+    <p>Q.19: A concave lens has focal-length of 15cm.At what distance should the object from the lens be placed so that it form an image at 10cm from lens?</p>
+    <ol>
+        <li>
+        <input type="radio" name="nint" value="voltmeter">+30
+        </li>
+        <li>
+            <input type="radio" name="nint" value="minus">-30
+        </li>
+        <li>
+            <input type="radio" name="nint" value="mercury">40
+       </li>
+       <li>
+        <input type="radio" name="nint" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+      <div class="q20">
+    <p>Q.20: If power of lens value -2.5D,the nature of lens?</p>
+    <ol>
+        <li>
+        <input type="radio" name="tenty" value="voltmeter">Bifocal lens
+        </li>
+        <li>
+            <input type="radio" name="tenty" value="thisone">Convex lens
+        </li>
+        <li>
+            <input type="radio" name="tenty" value="concave">Concave lens
+       </li>
+       <li>
+        <input type="radio" name="tenty" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q21">
+    <p>Q.21: A person with myopia ?</p>
+    <ol>
+        <li>
+        <input type="radio" name="tento" value="near">Can see near object
+        </li>
+        <li>
+            <input type="radio" name="tento" value="thisone">Can't see near object
+        </li>
+        <li>
+            <input type="radio" name="tento" value="concave">None
+       </li>
+       <li>
+        <input type="radio" name="tento" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q22">
+    <p>Q.22: Which colour has highest wavelenght?</p>
+    <ol>
+        <li>
+        <input type="radio" name="tenttw" value="red">Red
+        </li>
+        <li>
+            <input type="radio" name="tenttw" value="thisone">Violet
+        </li>
+        <li>
+            <input type="radio" name="tenttw" value="concave">Blue
+       </li>
+       <li>
+        <input type="radio" name="tenttw" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q23">
+    <p>Q.23: S.I unit electric current?</p>
+    <ol>
+        <li>
+        <input type="radio" name="tenthr" value="voltmeter">Coulomb
+        </li>
+        <li>
+            <input type="radio" name="tenthr" value="thisone">Joule
+        </li>
+        <li>
+            <input type="radio" name="tenthr" value="ampere">Ampere
+       </li>
+       <li>
+        <input type="radio" name="tenthr" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q24">
+    <p>Q.24: The device that detect voltage</p>
+    <ol>
+        <li>
+        <input type="radio" name="tentfr" value="voltmeter">Voltmeter
+        </li>
+        <li>
+            <input type="radio" name="tentfr" value="none">Ammeter
+        </li>
+        <li>
+            <input type="radio" name="tentfr" value="concave">Galvanometer
+       </li>
+       <li>
+        <input type="radio" name="tentfr" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q25">
+    <p>Q.25: Registance of the conductor increase</p>
+    <ol>
+        <li>
+        <input type="radio" name="tentfive" value="voltmeter">If lenght decrease
+        </li>
+        <li>
+            <input type="radio" name="tentfive" value="one">If lenght increase       
+        </li>
+        <li>
+            <input type="radio" name="tentfive" value="concave">If diameter is same
+       </li>
+       <li>
+        <input type="radio" name="tentfive" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q26">
+    <p>Q.26: An electric bulb is connected to a 220V generator.The current is 0.50A.What is the power of the bulb?</p>
+    <ol>
+        <li>
+        <input type="radio" name="tentsx" value="voltmeter">120W
+        </li>
+        <li>
+            <input type="radio" name="tentsx" value="onew">110W       
+        </li>
+        <li>
+            <input type="radio" name="tentsx" value="concave">225W
+       </li>
+       <li>
+        <input type="radio" name="tentsx" value="n">Do not know
+   </li>
+   
+    </ol>
+   </div>
+   <div class="q27">
+    <p>Q.27: Which element is used for making solar cells?</p>
+    <ol>
+        <li>
+        <input type="radio" name="tentsev" value="silicon">Silicon
+        </li>
+        <li>
+            <input type="radio" name="tentsev" value="one">Silver      
+        </li>
+        <li>
+            <input type="radio" name="tentsev" value="concave">Sodium
+       </li>
+       <li>
+        <input type="radio" name="tentsev" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q28">
+    <p>Q.28: Inside Magnet,Magnetic field line come from</p>
+    <ol>
+        <li>
+        <input type="radio" name="tentegh" value="voltmeter">East-West
+        </li>
+        <li>
+            <input type="radio" name="tentegh" value="one">North-South      
+        </li>
+        <li>
+            <input type="radio" name="tentegh" value="south">South-North
+       </li>
+       <li>
+        <input type="radio" name="tentegh" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q29">
+    <p>Q.29: What acid presence in ant sting?</p>
+    <ol>
+        <li>
+        <input type="radio" name="tentnine" value="voltmeter">Ethanoic acid
+        </li>
+        <li>
+            <input type="radio" name="tentnine" value="meth">Methanoic acid       
+        </li>
+        <li>
+            <input type="radio" name="tentnine" value="concave">Citric acid
+       </li>
+       <li>
+        <input type="radio" name="tentnine" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+   <div class="q30">
+    <p>Q.30: 100J of heat is produced each second in a 4 ohm registance.Find the potential difference across the registor.</p>
+    <ol>
+        <li>
+        <input type="radio" name="thirty" value="voltmeter">40V
+        </li>
+        <li>
+            <input type="radio" name="thirty" value="one">30V      
+        </li>
+        <li>
+            <input type="radio" name="thirty" value="twenty">20V
+       </li>
+       <li>
+        <input type="radio" name="thirty" value="n">Do not know
+   </li>
+
+    </ol>
+   </div>
+
+            
+
+   <input type="submit" value="Submit" class="btn">
+</form>
+
+
+</div>
+
+
+
+</div>
+
+
+</body>
+</html>
