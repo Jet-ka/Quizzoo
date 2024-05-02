@@ -1,3 +1,10 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+
+
 .main {
     
         display:flex;
@@ -7,17 +14,12 @@
         height: 100vh;
         background-color:blueviolet;
         color:white;
-    
+        gap:20px;
     
 
 }
 
-.upor{
-  margin-bottom:50px;
-  font-size:2rem ;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-}
+
 #mark{
   padding-left: 17px;
   font-size: 1rem;
@@ -29,34 +31,35 @@
 }
 
 .card {
-    margin-bottom:300px ;
+  /*  margin-bottom:300px ;*/
     padding-left:35px;
     padding-right:20px;
-    padding-top:100px;
+    padding-top:80px;
     background-color:black;
     color: white;
     text-align: center;
-    width: 700px;
-    height: 470px;
+    width: 300px;
+    height: 300px;
     border:1px solid red;
     border-radius: 45px;
-    cursor:pointer;
+  
 }
 
 
-h2{
+
+.headline{
     text-align:center;
 }
 
-input{
+.formstyle{
     border:1px solid greenyellow;
     border-radius: 23px;
-    font-size:1rem ;
-    font-weight: 900;
+    padding-left:15px;
+    
     width: 100%;
     background-color:rgb(36, 7, 63);
     color:white;
-    height: 50px;
+    height: 30px;
 }
 input:hover{
     opacity: 0.8;
